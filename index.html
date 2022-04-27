@@ -41,20 +41,63 @@
     <!-- we use cors proxy to avoid cross-origin problems -->
     <a-nft
       type="nft"
-      url="assets_gltf/assets_iset/animal-kucing"
+      url="assets_gltf/assets_iset/Tugu-Khatulistiwa-Pontianak"
       smooth="true"
       smoothcount="10"
       smoothTolerance=".01"
       smoothThreshold="5"
     >
       <a-entity
-        gltf-model="assets_gltf/bola-basket.gltf"
-        scale="10 10 10"
+        gltf-model="assets_gltf/khatulistiwa.gltf"
+        scale="100 100 100"
         position="50 150 0"
       >
       </a-entity>
     </a-nft>
-    <a-entity camera></a-entity>
+
+    <a-nft
+      type="nft"
+      url="assets_gltf/assets_iset/tongkonan"
+      smooth="true"
+      smoothcount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+      <a-entity
+        gltf-model="assets_gltf/Tongkonan.gltf"
+        scale="100 100 100"
+        position="50 150 0"
+      >
+      </a-entity>
+    </a-nft>
+
+    <a-nft
+      type="nft"
+      url="assets_gltf/assets_iset/surabaya"
+      smooth="true"
+      smoothcount="10"
+      smoothTolerance=".01"
+      smoothThreshold="5"
+    >
+      <a-entity
+        gltf-model="assets_gltf/Surabaya.gltf"
+        scale="100 100 100"
+        position="50 150 0"
+      >
+      </a-entity>
+    </a-nft>
+
+    <a-entity camera>
+      <a-gltf-model
+        src="assets_gltf/sekolah-pro.gltf"
+        position="7 3.50 -17" scale="80 80 80"></a-gltf-model>
+        <a-gltf-model
+        src="assets_gltf/merdeka-belajar.gltf"
+        position="-4.8 1.1 -13" scale="80 80 80"></a-gltf-model>
+        <a-text value="powered by: PT.Kita Serba Digital"
+        color="white"
+        position="-2 -3.22 -15"></a-text>
+    </a-entity>
   </a-scene>
 </body>
 
